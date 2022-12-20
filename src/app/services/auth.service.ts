@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators'
 export class AuthService {
 
   private url = 'https://identitytoolkit.googleapis.com/v1/accounts:'
-  private apiKey = '' // Clave de API web
+  private apiKey = 'AIzaSyCLxoFFKiPzYd4Z_S-Bjr7SKjkrziFlOzo' // Clave de API web
   private userToken: string
 
   // Crear nuevo usuario
